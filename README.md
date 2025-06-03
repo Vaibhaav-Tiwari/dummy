@@ -90,9 +90,14 @@ f'(x) = \begin{cases}
 \end{cases}
 \]
 
-#### Sigmoid
-\[ f(x) = \frac{1}{1 + e^{-x}} \]
-\[ f'(x) = f(x)(1 - f(x)) \]
+
+   - Sigmoid:
+     ```math
+     f(x) = \frac{1}{1 + e^{-x}}
+     ```
+     ```math
+     f'(x) = f(x)(1 - f(x))
+     ```
 
 #### Tanh
 \[
